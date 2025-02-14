@@ -32,6 +32,10 @@ type RecognitionOfWar struct {
 
 type Location string
 
+type GameLog struct {
+	LogMessage string
+}
+
 func getAllRanks() map[UnitRank]struct{} {
 	return map[UnitRank]struct{}{
 		RankInfantry:  {},
